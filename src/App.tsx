@@ -14,6 +14,7 @@ import { BackgroundGradient } from "@/components/ui/background-gradient";
 import About from "@/components/about";
 import Coursework from "@/components/coursework";
 import Contact from "@/components/contact";
+import Resume from "@/components/resume";
 
 function App() {
   const [page, setPage] = useState("about");
@@ -64,7 +65,7 @@ function App() {
           {page === "about" && <About />}
           {page === "research" && <h1>Research</h1>}
           {page === "coursework" && <Coursework />}
-          {page === "resume" && <h1>Resume</h1>}
+          {page === "resume" && <Resume />}
           {page === "contact" && <Contact />}
         </BackgroundGradient>
       </div>

@@ -12,7 +12,13 @@ export function Coursework() {
   return (
     <>
       <Table>
-        <TableCaption>Cumulative GPA: 4.0</TableCaption>
+        <TableCaption>
+          <div className="flex justify-evenly">
+            <p className="px-6"> Major: Computer Science </p>
+            <p className="px-6"> Minors: Mathematics, Statistics </p>
+            <p className="px-6"> Cumulative GPA: 4.0 </p>
+          </div>
+        </TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="w-[150px] text-left">Course Code</TableHead>
@@ -38,7 +44,7 @@ export function Coursework() {
               Intro to Computer Organization
             </TableCell>
             <TableCell className="text-left">
-              ARMv8, Cache design, IEEE formats
+              ARMv8, Cache design, Parallel processing
             </TableCell>
             <TableCell className="text-right">A</TableCell>
           </TableRow>
