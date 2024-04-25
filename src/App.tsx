@@ -12,6 +12,7 @@ import {
 import About from "@/components/about";
 import Spacer from "@/components/spacer";
 import { Button } from "@/components/ui/button";
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 function App() {
   const [page, setPage] = useState("about");
@@ -54,15 +55,13 @@ function App() {
       <Spacer size={100} />
 
       <div className="flex justify-center align-center px-8">
-        {page === "about" && (
-          <div className="max-w-3xl flex justify-center align-center">
-            <About />
-          </div>
-        )}
-        {page === "research" && <h1>Research</h1>}
-        {page === "coursework" && <h1>Coursework</h1>}
-        {page === "resume" && <h1>Resume</h1>}
-        {page === "contact" && <h1>Contact</h1>}
+        <BackgroundGradient className="rounded-[22px] max-w-3xl p-4 sm:p-10 bg-zinc-900">
+          {page === "about" && <About />}
+          {page === "research" && <h1>Research</h1>}
+          {page === "coursework" && <h1>Coursework</h1>}
+          {page === "resume" && <h1>Resume</h1>}
+          {page === "contact" && <h1>Contact</h1>}
+        </BackgroundGradient>
       </div>
     </div>
   );
