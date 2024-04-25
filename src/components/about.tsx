@@ -1,10 +1,9 @@
-"use client";
 import Spacer from "@/components/spacer";
 
 export function About() {
   return (
     <>
-      <div className="flex items-center p-4">
+      <div className="max-w-3xl flex items-center p-4">
         <img
           src="/headshot.jpg"
           alt="headshot"
