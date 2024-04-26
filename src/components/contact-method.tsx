@@ -4,7 +4,11 @@ import { Button } from "@/components/ui/button";
 export function ContactMethod({ url, name }: { url: string; name: string }) {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-      <SocialIcon url={url} style={{ height: 36, width: 36 }} />
+      <SocialIcon
+        url={url}
+        style={{ height: 36, width: 36 }}
+        className={"border-solid border border-neutral-200 rounded-full"}
+      />
       <Button variant="link">
         <a href={url} target="_blank" rel="noopener noreferrer">
           {name}

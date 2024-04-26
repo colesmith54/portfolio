@@ -7,7 +7,7 @@ export function About() {
         <img
           src="/headshot.jpg"
           alt="headshot"
-          className="rounded-full w-48 h-48 min-w-48 min-h-48 overflow-hidden object-cover"
+          className="border-solid border-2 border-neutral-200 rounded-full w-48 h-48 min-w-48 min-h-48 overflow-hidden object-cover"
         />
         <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200 flex-grow max-w-sm">
           Hi! I'm Cole Smith, a computer science student at the University of
