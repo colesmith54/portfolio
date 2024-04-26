@@ -12,9 +12,10 @@ import { Button } from "@/components/ui/button";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 import About from "@/components/about";
+import Research from "@/components/research";
 import Coursework from "@/components/coursework";
-import Contact from "@/components/contact";
 import Resume from "@/components/resume";
+import Contact from "@/components/contact";
 
 function App() {
   const [page, setPage] = useState("about");
@@ -63,7 +64,7 @@ function App() {
           }xl p-4 sm:p-10 bg-zinc-900`}
         >
           {page === "about" && <About />}
-          {page === "research" && <h1>Research</h1>}
+          {page === "research" && <Research />}
           {page === "coursework" && <Coursework />}
           {page === "resume" && <Resume />}
           {page === "contact" && <Contact />}
