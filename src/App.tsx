@@ -28,27 +28,35 @@ function App() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <Button variant="link" onClick={() => setPage("about")}>
-                About
+                {page === "about" ? <strong>About</strong> : <>About</>}
               </Button>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Button variant="link" onClick={() => setPage("research")}>
-                Research
+                {page === "research" ? (
+                  <strong>Research</strong>
+                ) : (
+                  <>Research</>
+                )}
               </Button>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Button variant="link" onClick={() => setPage("coursework")}>
-                Coursework
+                {page === "coursework" ? (
+                  <strong>Coursework</strong>
+                ) : (
+                  <>Coursework</>
+                )}
               </Button>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Button variant="link" onClick={() => setPage("resume")}>
-                Resume
+                {page === "resume" ? <strong>Resume</strong> : <>Resume</>}
               </Button>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Button variant="link" onClick={() => setPage("contact")}>
-                Contact
+                {page === "contact" ? <strong>Conatct</strong> : <>Contact</>}
               </Button>
             </NavigationMenuItem>
           </NavigationMenuList>
