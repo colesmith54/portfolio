@@ -3,7 +3,7 @@ export function Research() {
     <>
       <div className="max-w-3xl flex sm:flex-row flex-col items-center justify-between p-4">
         <img
-          src="/TIPSpen.png"
+          src="/tips.png"
           alt="headshot"
           className="border-solid border-2 rounded-lg border-neutral-200 md:w-64 md:h-48 w-48 h-32 min-w-48 min-h-32 overflow-hidden object-cover"
         />
