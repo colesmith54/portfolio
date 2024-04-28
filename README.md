@@ -1,2 +1,2 @@
 # portfolio
-made with next.js and tailwind :)
+deployed @ https://colesmith.vercel.app :)
