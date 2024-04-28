@@ -24,7 +24,7 @@ export function Resume() {
           <DialogContent>
             <div className="max-w-screen-md mx-auto p-5 text-left">
               <div className="mt-6">
-                <h2 className="text-lg font-semibold border-b border-gray-400">
+                <h2 className="sm:text-lg text-base font-semibold border-b border-gray-400">
                   Experience
                 </h2>
                 <Spacer size={8} />
@@ -34,26 +34,32 @@ export function Resume() {
                       <span className="font-bold">
                         Software Engineering Intern
                       </span>
-                      <span>May 2024 - Aug. 2024</span>
+                      <span className="max-sm:hidden">
+                        May 2024 - Aug. 2024
+                      </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="italic text-sm">
+                      <span className="italic sm:text-sm text-xs">
                         Intuit Credit Karma
                       </span>
-                      <span className="italic text-sm">Charlotte, NC</span>
+                      <span className="italic sm:text-sm text-xs">
+                        Charlotte, NC
+                      </span>
                     </div>
                   </li>
                   <Spacer size={8} />
                   <li>
                     <div className="flex justify-between">
                       <span className="font-bold">Technical Officer</span>
-                      <span>Dec. 2023 - Present</span>
+                      <span className="max-sm:hidden">Dec. 2023 - Present</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="italic text-sm">
+                      <span className="italic sm:text-sm text-xs">
                         UF Software Engineering Club
                       </span>
-                      <span className="italic text-sm">Gainesville, FL</span>
+                      <span className="italic sm:text-sm text-xs">
+                        Gainesville, FL
+                      </span>
                     </div>
                   </li>
                   <Spacer size={8} />
@@ -62,18 +68,22 @@ export function Resume() {
                       <span className="font-bold">
                         Undergraduate Researcher
                       </span>
-                      <span>Aug. 2023 - Present</span>
+                      <span className="max-sm:hidden">Aug. 2023 - Present</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="italic text-sm">UF SurfLab</span>
-                      <span className="italic text-sm">Gainesville, FL</span>
+                      <span className="italic sm:text-sm text-xs">
+                        UF SurfLab
+                      </span>
+                      <span className="italic sm:text-sm text-xs">
+                        Gainesville, FL
+                      </span>
                     </div>
                   </li>
                 </ul>
               </div>
 
               <div className="mt-6">
-                <h2 className="text-lg font-semibold border-b border-gray-400">
+                <h2 className="sm:text-lg text-base font-semibold border-b border-gray-400">
                   Projects
                 </h2>
                 <Spacer size={8} />
@@ -81,9 +91,9 @@ export function Resume() {
                   <li>
                     <div className="flex justify-between">
                       <span className="font-bold">Sentimentor</span>
-                      <span>Mar. 2024</span>
+                      <span className="max-sm:hidden">Mar. 2024</span>
                     </div>
-                    <div className="italic text-sm">
+                    <div className="italic sm:text-sm text-xs">
                       React, TypeScript, Node, MongoDB, FastAPI, TensorFlow,
                       PyTorch
                     </div>
@@ -92,9 +102,9 @@ export function Resume() {
                   <li>
                     <div className="flex justify-between">
                       <span className="font-bold">PathPilot</span>
-                      <span>Mar. 2024</span>
+                      <span className="max-sm:hidden">Mar. 2024</span>
                     </div>
-                    <div className="italic text-sm">
+                    <div className="italic sm:text-sm text-xs">
                       React, TypeScript, Node, Framer Motion, Google Maps API,
                       OpenStreetMap
                     </div>
@@ -105,27 +115,30 @@ export function Resume() {
                       <span className="font-bold">
                         Sorting Algorithm Visualizer
                       </span>
-                      <span>May 2023</span>
+                      <span className="max-sm:hidden">May 2023</span>
                     </div>
-                    <div className="italic text-sm">JavaScript</div>
+                    <div className="italic sm:text-sm text-xs">JavaScript</div>
                   </li>
                 </ul>
               </div>
 
               <div className="mt-6">
-                <h2 className="text-lg font-semibold border-b border-gray-400">
+                <h2 className="sm:text-lg text-base font-semibold border-b border-gray-400">
                   Technical Skills
                 </h2>
+                <Spacer size={8} />
                 <ul className="list-none">
-                  <li className="text-sm">
+                  <li className="sm:text-sm text-xs">
                     <strong>Languages:</strong> Python, C/C++, JavaScript,
                     TypeScript, HTML/CSS, Swift, Java, SQL
                   </li>
-                  <li className="text-sm">
+                  <Spacer size={8} />
+                  <li className="sm:text-sm text-xs">
                     <strong>Frameworks & Libraries:</strong> React, Node.js,
                     Flask, Tailwind, TensorFlow
                   </li>
-                  <li className="text-sm">
+                  <Spacer size={8} />
+                  <li className="sm:text-sm text-xs">
                     <strong>Developer Tools:</strong> MongoDB, Git, Unix, Linux,
                     VS Code, Visual Studio
                   </li>

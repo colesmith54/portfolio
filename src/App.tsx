@@ -63,7 +63,10 @@ function App() {
         </NavigationMenu>
       </div>
 
-      <Spacer size={100} />
+      <Spacer size={50} />
+      <div className="sm:block hidden">
+        <Spacer size={50} />
+      </div>
 
       <div className="flex justify-center align-center px-8">
         <BackgroundGradient

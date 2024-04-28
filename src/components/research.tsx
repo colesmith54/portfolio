@@ -1,30 +1,27 @@
-import Spacer from "@/components/spacer";
-
 export function Research() {
   return (
     <>
-      <div className="max-w-3xl flex items-center justify-between p-4">
+      <div className="max-w-3xl flex sm:flex-row flex-col items-center justify-between p-4">
         <img
           src="/TIPSpen.png"
           alt="headshot"
-          className="border-solid border-2 rounded-lg border-neutral-200 w-64 h-48 min-w-48 min-h-48 overflow-hidden object-cover"
+          className="border-solid border-2 rounded-lg border-neutral-200 md:w-64 md:h-48 w-48 h-32 min-w-48 min-h-32 overflow-hidden object-cover"
         />
         <div>
-          <p className="text-base sm:text-xl mt-4 mb-2 text-neutral-200 flex-grow max-w-sm">
+          <p className="text-base sm:text-xl mt-4 mb-2 sm:ml-4 ml-0 text-neutral-200 flex-grow max-w-sm">
             TIPSLite
           </p>
-          <p className="text-base text-sm text-neutral-400 mt-4 mb-2 flex-grow max-w-sm">
-            with Dr. Jörg Peters, CISE @ University of Florida
+          <p className="text-base text-sm text-neutral-400 mt-4 mb-2 sm:ml-4 ml-0 flex-grow max-w-sm">
+            with Dr. Jörg Peters, under the CISE Department @ the University of
+            Florida
           </p>
-          <p className="text-base text-sm text-neutral-400 mt-4 mb-2 flex-grow max-w-sm">
+          <p className="text-base text-sm text-neutral-400 mt-4 sm:ml-4 ml-0 flex-grow max-w-sm">
             December 2023 — Present
           </p>
         </div>
       </div>
 
-      <Spacer size={20} />
-
-      <p className="text-sm text-neutral-400 text-left">
+      <p className="text-sm text-neutral-400 text-left mx-4 my-4">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIPSLite is a
         lightweight, portable addition to TIPS (Toolkit for Illustrations of
         Procedures in Surgery). The goal is to provide a cheap alternative to
